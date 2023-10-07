@@ -1,0 +1,80 @@
+project:
+  type: website
+
+website:
+  page-navigation: true
+  title: "Geomática + Python 🗺️"
+  repo-url: https://github.com/map0logo/intro_geomatica_python
+  repo-subdir: site
+  navbar:
+    background: primary
+    search: true
+    left:
+      - href: index.qmd
+        text: "Inicio"
+      - href: fundamentos.qmd
+        text: "Fundamentos"
+      - href: exploracion.qmd
+        text: "Exploración"
+
+    right:
+      - href: acerca_de.qmd
+        text: "Acerca de"
+        
+    tools:
+      - icon: twitter
+        href: https://twitter.com/mapologo
+      - icon: github
+        menu:
+          - text: Código fuente
+            url:  https://github.com/map0logo/intro_geomatica_python
+          - text: Reporta algún problema
+            url:  https://github.com/map0logo/intro_geomatica_python/issues
+
+  sidebar:
+    - title: "Introducción"
+      style: "docked"
+      contents:
+      - href: index.qmd
+        text: "Inicio"
+      - href: introduccion.qmd
+        text: "Introducción"
+    - title: "Fundamentos"
+      style: "docked"
+      contents:
+      - href: fundamentos.qmd
+        text: "Fundamentos"
+      - href: raster.qmd
+        text: "Datos ráster"
+      - href: vectorial.qmd
+        text: "Datos vectoriales"
+      - href: proyecciones_cartograficas.qmd
+        text: "Protecciones cartográficas"
+
+    - title: "Exploración"
+      style: "docked"
+      contents:
+      - href: exploracion.qmd
+        text: "Exploración"
+      - href: visualizacion_geoespacial.qmd
+        text: "Visualización geoespacial"
+      - href: acceso_datos_geoespaciales.qmd
+        text: "Acceso a datos geoespaciales"
+
+
+  page-footer: 
+    right: "Introducción a la Geomática con Python © 2023 por Francisco
+      Palm está licenciado bajo CC BY-SA 4.0"
+    background: light
+
+
+format:
+  html:
+    theme:
+      light: flatly
+      dark: darkly
+    css: styles.css
+    toc: true
+
+
+

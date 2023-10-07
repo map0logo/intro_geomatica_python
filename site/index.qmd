@@ -1,0 +1,16 @@
+---
+title: "Inicio"
+---
+
+
+* ¿Qué tiene de especial la información geoespacial?
+
+* Datos Raster
+
+* Datos Vectoriales
+
+* Sistemas de Referencia de Coordenadas
+
+* Visualización Geoespacial 
+
+* Fuentes de Datos Geoespaciales
