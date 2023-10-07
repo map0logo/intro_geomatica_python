@@ -136,7 +136,10 @@ venv.bak/
 .ropeproject
 
 # mkdocs documentation
-/site
+# /site
+
+# quarto builds
+/site/_site
 
 # mypy
 .mypy_cache/
